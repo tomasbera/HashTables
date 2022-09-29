@@ -147,7 +147,7 @@ public class HashTableString {
         HashTableString ht = new HashTableString(115);
 
         try {
-            File myObj = new File("C:\\Users\\Administrator\\Arbkrav\\Øving5\\src\\HitList");
+            File myObj = new File("C:\\Users\\Administrator\\Arbkrav\\Øving5\\src\\Names");
             Scanner myReader = new Scanner(myObj);
             while (myReader.hasNextLine()) {
                 String data = myReader.nextLine();
